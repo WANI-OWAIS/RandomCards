@@ -1,11 +1,4 @@
-//DEVELOPER PROBLEMS
-//-------------------------------------
-//Debugging a TypeError: Cannot read property 'X' of undefined:
-// var obj = {};
-// obj?.name?.age; //conditional chaining
 
-//Handling Asynchronous Operations 
-//ek button banao and us button ke click par ek user lekar aana hai random tareke se and usey add karna hai dom mein.
 const getuser = document.querySelector("#getuser");
 function getNewUser() {
     fetch(`https://randomuser.me/api/
@@ -29,13 +22,3 @@ getuser.addEventListener("click", function () {
     getNewUser();
 })
 
-
-
-
-
-
-
-
-//Working with Local Storage
-//Blocking scroll until something happens
-//Custom tooltip
